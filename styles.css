@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    color: rgb(2, 0, 0);
+    font-size: 20px 
+    }
+
+
+    h2 {
+        text-align: center;
+        color: rgb(228, 23, 150);
+        font-size: 22px 
+        }
+
+
+ p {
+        text-align: center;
+        font-size: 14px; 
+  
+      }
+
+
+ body {
+        background-image: url(tennis.JPG); 
+        background-size: cover;        
+        background-repeat: no-repeat;  
+        background-position: center center;  
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+
+      mark {
+        background-color: rgb(228, 23, 150);
+        color: rgb(252, 248, 248);  
+    }
+    
+
+.connexion-container {
+    background-color: rgb(253, 253, 253); 
+    border: 2px solid #0c0c0c; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.connexion-container h2 {
+    text-align: center;
+    color: #333; 
+}
+
+
+
