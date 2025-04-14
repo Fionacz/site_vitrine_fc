@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
-    color: rgb(2, 0, 0);
-    font-size: 20px 
+    color: rgb(0, 0, 0);
+    font-size: 21px  
     }
 
 
@@ -14,42 +14,116 @@ h1 {
 
  p {
         text-align: center;
-        font-size: 14px; 
-  
+        font-size: 15px; 
+        padding: 20px;
+        margin: 1px;
       }
 
 
  body {
-        background-image: url(tennis.JPG); 
+        background-image: url(../../Downloads/pexels-79380313-8887717.JPG); 
         background-size: cover;        
         background-repeat: no-repeat;  
         background-position: center center;  
-        height: 100vh;
+        height: 115vh;
         margin: 0;
         padding: 0;
       }
 
 
-      mark {
+ mark {
         background-color: rgb(228, 23, 150);
         color: rgb(252, 248, 248);  
     }
     
 
-.connexion-container {
+ .connexion-container {
     background-color: rgb(253, 253, 253); 
-    border: 2px solid #0c0c0c; 
+    border: 3px solid #0c0c0c; 
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
-
-.connexion-container h2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
     text-align: center;
-    color: #333; 
+    margin: auto;
+ }
+
+
+ .connexion-container h2 {
+    text-align: center;
+    color: #333;   
 }
+
+
+ button {
+    background-color: #ef2d9e;
+  }
+
+  
+  nav {
+    background-color: #000000; 
+    text-align: center; 
+  }
+  
+  
+  nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  
+  nav ul li {
+    margin: 0 10px; 
+  }
+  
+  
+  nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 13px; 
+    padding: 10px 4px; 
+    display: inline-block; 
+  }
+  
+  
+  nav ul li a:hover {
+    background-color: #f70461;
+  }
+  
+
+  .fond {
+    background-color: #f7f8f9;  
+    padding: 15px;             
+    border-radius: 10px;         
+    color: #040404;                
+    font-size: 16px;           
+    border-radius: 25px; 
+    margin: 25px;
+    border: 2px solid #000;
+  }
+  
+
+.mon-gif {
+    width: 300px; 
+    height: auto; 
+    border: 2px solid #000; 
+    border-radius: 35px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease; 
+    margin: 60px;
+    padding: 0px;
+}
+
+
+.mon-gif:hover {
+    transform: scale(1.5); 
+}
+
+
+
 
 
 
