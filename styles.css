@@ -1,20 +1,20 @@
 h1 {
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size: 21px  
+    font-size: 25px  
     }
 
 
     h2 {
         text-align: center;
-        color: rgb(228, 23, 150);
+        color:  rgb(254, 237, 1);
         font-size: 22px 
         }
 
 
  p {
         text-align: center;
-        font-size: 15px; 
+        font-size: 14px; 
         padding: 20px;
         margin: 1px;
       }
@@ -32,7 +32,7 @@ h1 {
 
 
  mark {
-        background-color: rgb(228, 23, 150);
+        background-color:  rgb(217, 213, 2);
         color: rgb(252, 248, 248);  
     }
     
@@ -42,10 +42,11 @@ h1 {
     border: 3px solid #0c0c0c; 
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 280px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
     text-align: center;
     margin: auto;
+    opacity: 0.9;
  }
 
 
@@ -56,13 +57,14 @@ h1 {
 
 
  button {
-    background-color: #ef2d9e;
+    background-color: rgb(254, 237, 1);
   }
 
   
   nav {
     background-color: #000000; 
     text-align: center; 
+    opacity: 0.8;
   }
   
   
@@ -76,12 +78,12 @@ h1 {
   
   
   nav ul li {
-    margin: 0 10px; 
+    margin: 0 5px; 
   }
   
   
   nav ul li a {
-    color: white; 
+    color: rgb(255, 255, 255); 
     text-decoration: none; 
     font-size: 13px; 
     padding: 10px 4px; 
@@ -90,31 +92,33 @@ h1 {
   
   
   nav ul li a:hover {
-    background-color: #f70461;
+    background-color:  rgb(217, 213, 2);
   }
   
 
   .fond {
     background-color: #f7f8f9;  
-    padding: 15px;             
-    border-radius: 10px;         
+    padding: 10px;             
+    border-radius: 15px;         
     color: #040404;                
-    font-size: 16px;           
-    border-radius: 25px; 
+    font-size: 13px;           
+    border-radius: 20px; 
     margin: 25px;
     border: 2px solid #000;
+    opacity: 0.9;
   }
   
 
 .mon-gif {
-    width: 300px; 
+    width: 200px; 
     height: auto; 
     border: 2px solid #000; 
-    border-radius: 35px; 
+    border-radius: 15px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
     transition: transform 0.3s ease; 
-    margin: 60px;
+    margin: 0 auto;
     padding: 0px;
+    display: block;
 }
 
 
@@ -123,7 +127,109 @@ h1 {
 }
 
 
+.formulaire {
+    margin: 50px auto;
+    width: 250px; 
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 3px solid #0c0c0c;
+    opacity: 0.9;
+}
 
 
+.bloc-photo-texte {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 1px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    margin: 15px auto; 
+    margin-left: 25px;  
+    margin-right: 25px; 
+    border: 2px solid #000;
+    opacity: 0.9;
+    height: 100px;
+}
 
 
+.bloc-photo-texte img {
+    width: 130px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.bloc-photo-texte .texte {
+    flex: 1;
+}
+
+
+.bloc-photo-texte .texte h2 {
+    margin-bottom: -15px;  
+    font-size: 20px;
+}
+
+
+.bloc-photo-texte .texte p {
+    margin-top: 0px;  
+    font-size: 11px;
+}
+
+
+.conteneur-centre {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    justify-content: center; 
+  
+  }
+  
+
+.reseaux {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+
+  .reseaux h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  
+  .map {
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+
+  .map iframe {
+    width: 80%;
+    max-width: 250px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+
+  .main-content {
+    flex-grow: 1; 
+  }
+  
+
+  footer {
+    color: white;  
+    text-align: center;
+    padding: 10px;
+  }
+  
