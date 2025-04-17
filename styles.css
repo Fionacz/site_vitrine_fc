@@ -141,7 +141,7 @@ h1 {
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #4CAF50;
+    border: 3px solid rgb(26, 81, 21);
     margin-bottom: 10px;
   }
   
