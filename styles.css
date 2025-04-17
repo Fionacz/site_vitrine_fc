@@ -115,9 +115,48 @@ h1 {
     border: 2px solid #000;
     opacity: 0.9;
   }
+
+
+  .team-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .member {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 180px;
+    border: 2px solid #000;
+    opacity: 0.9;
+  }
+  
+  .member img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .member h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .member p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+  }
   
 
-.mon-gif {
+  .mon-gif {
     width: 200px; 
     height: auto; 
     border: 2px solid #000; 
@@ -201,6 +240,60 @@ h1 {
     color:  rgb(217, 213, 2);
 }
 
+
+.bloc {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%; 
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid #000;
+    opacity: 0.9;
+    background-color: #f4f4f4; 
+    
+  }
+  
+  
+  .image {
+    text-align: center;
+    width: 150px;
+    max-width: 300px; 
+  }
+  
+  
+  .content h3 {
+    font-size: 16px; 
+    text-align: center; 
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    margin: 0; 
+    font-size: 17px; 
+  }
+
+
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+    display: block;
+  }
+  
+  
+  .image img:hover {
+    transform: scale(1.10);
+  }
+  
 
 .conteneur-centre {
     display: flex;
@@ -336,9 +429,35 @@ h1 {
     }
   }
 
+  
+  @media screen and (min-width: 768px) {
+    .bloc {
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+  
+    .image {
+      flex: 1;
+      text-align: right; 
+    }
+  
+    .image img {
+      max-width: 80%; 
+    }
+  }
+  
+  
+  @media screen and (min-width: 1200px) {
+    .bloc {
+      width: 60%; 
+    }
+  }
+  
+  
+ 
+  
 
-  
-  
+
  
   
 
