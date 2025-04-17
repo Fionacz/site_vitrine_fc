@@ -256,7 +256,6 @@ h1 {
     border: 2px solid #000;
     opacity: 0.9;
     background-color: #f4f4f4; 
-    
   }
   
   
@@ -447,20 +446,22 @@ h1 {
   }
   
   
-  @media screen and (min-width: 1200px) {
+  @media (min-width: 1024px) {
     .bloc {
-      width: 60%; 
+        padding: 40px;  
+        width: 50%;      
     }
-  }
-  
-  
- 
-  
 
+    .content h3 {
+        font-size: 24px; 
+        margin-bottom: 20px;
+    }
 
- 
-  
-
+    .content p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
 
 
 
